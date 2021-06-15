@@ -155,6 +155,124 @@ SortingAlgos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgos.dir\build.make CMakeFiles/SortingAlgos.dir/build
 .PHONY : SortingAlgos/fast
 
+#=============================================================================
+# Target rules for targets named selection
+
+# Build rule for target.
+selection: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 selection
+.PHONY : selection
+
+# fast build rule for target.
+selection/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\selection.dir\build.make CMakeFiles/selection.dir/build
+.PHONY : selection/fast
+
+#=============================================================================
+# Target rules for targets named insertion
+
+# Build rule for target.
+insertion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 insertion
+.PHONY : insertion
+
+# fast build rule for target.
+insertion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertion.dir\build.make CMakeFiles/insertion.dir/build
+.PHONY : insertion/fast
+
+#=============================================================================
+# Target rules for targets named merge
+
+# Build rule for target.
+merge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 merge
+.PHONY : merge
+
+# fast build rule for target.
+merge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\merge.dir\build.make CMakeFiles/merge.dir/build
+.PHONY : merge/fast
+
+#=============================================================================
+# Target rules for targets named linearSearch
+
+# Build rule for target.
+linearSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linearSearch
+.PHONY : linearSearch
+
+# fast build rule for target.
+linearSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linearSearch.dir\build.make CMakeFiles/linearSearch.dir/build
+.PHONY : linearSearch/fast
+
+#=============================================================================
+# Target rules for targets named quick
+
+# Build rule for target.
+quick: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 quick
+.PHONY : quick
+
+# fast build rule for target.
+quick/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quick.dir\build.make CMakeFiles/quick.dir/build
+.PHONY : quick/fast
+
+#=============================================================================
+# Target rules for targets named binarySearch
+
+# Build rule for target.
+binarySearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 binarySearch
+.PHONY : binarySearch
+
+# fast build rule for target.
+binarySearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/build
+.PHONY : binarySearch/fast
+
+#=============================================================================
+# Target rules for targets named interpolationSearch
+
+# Build rule for target.
+interpolationSearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 interpolationSearch
+.PHONY : interpolationSearch
+
+# fast build rule for target.
+interpolationSearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\interpolationSearch.dir\build.make CMakeFiles/interpolationSearch.dir/build
+.PHONY : interpolationSearch/fast
+
+binarySearch.obj: binarySearch.cpp.obj
+
+.PHONY : binarySearch.obj
+
+# target to build an object file
+binarySearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/binarySearch.cpp.obj
+.PHONY : binarySearch.cpp.obj
+
+binarySearch.i: binarySearch.cpp.i
+
+.PHONY : binarySearch.i
+
+# target to preprocess a source file
+binarySearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/binarySearch.cpp.i
+.PHONY : binarySearch.cpp.i
+
+binarySearch.s: binarySearch.cpp.s
+
+.PHONY : binarySearch.s
+
+# target to generate assembly for a file
+binarySearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\binarySearch.dir\build.make CMakeFiles/binarySearch.dir/binarySearch.cpp.s
+.PHONY : binarySearch.cpp.s
+
 bubble.obj: bubble.cpp.obj
 
 .PHONY : bubble.obj
@@ -181,6 +299,87 @@ bubble.s: bubble.cpp.s
 bubble.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\buble.dir\build.make CMakeFiles/buble.dir/bubble.cpp.s
 .PHONY : bubble.cpp.s
+
+insertion.obj: insertion.cpp.obj
+
+.PHONY : insertion.obj
+
+# target to build an object file
+insertion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertion.dir\build.make CMakeFiles/insertion.dir/insertion.cpp.obj
+.PHONY : insertion.cpp.obj
+
+insertion.i: insertion.cpp.i
+
+.PHONY : insertion.i
+
+# target to preprocess a source file
+insertion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertion.dir\build.make CMakeFiles/insertion.dir/insertion.cpp.i
+.PHONY : insertion.cpp.i
+
+insertion.s: insertion.cpp.s
+
+.PHONY : insertion.s
+
+# target to generate assembly for a file
+insertion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertion.dir\build.make CMakeFiles/insertion.dir/insertion.cpp.s
+.PHONY : insertion.cpp.s
+
+interpolationSearch.obj: interpolationSearch.cpp.obj
+
+.PHONY : interpolationSearch.obj
+
+# target to build an object file
+interpolationSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\interpolationSearch.dir\build.make CMakeFiles/interpolationSearch.dir/interpolationSearch.cpp.obj
+.PHONY : interpolationSearch.cpp.obj
+
+interpolationSearch.i: interpolationSearch.cpp.i
+
+.PHONY : interpolationSearch.i
+
+# target to preprocess a source file
+interpolationSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\interpolationSearch.dir\build.make CMakeFiles/interpolationSearch.dir/interpolationSearch.cpp.i
+.PHONY : interpolationSearch.cpp.i
+
+interpolationSearch.s: interpolationSearch.cpp.s
+
+.PHONY : interpolationSearch.s
+
+# target to generate assembly for a file
+interpolationSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\interpolationSearch.dir\build.make CMakeFiles/interpolationSearch.dir/interpolationSearch.cpp.s
+.PHONY : interpolationSearch.cpp.s
+
+linearSearch.obj: linearSearch.cpp.obj
+
+.PHONY : linearSearch.obj
+
+# target to build an object file
+linearSearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linearSearch.dir\build.make CMakeFiles/linearSearch.dir/linearSearch.cpp.obj
+.PHONY : linearSearch.cpp.obj
+
+linearSearch.i: linearSearch.cpp.i
+
+.PHONY : linearSearch.i
+
+# target to preprocess a source file
+linearSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linearSearch.dir\build.make CMakeFiles/linearSearch.dir/linearSearch.cpp.i
+.PHONY : linearSearch.cpp.i
+
+linearSearch.s: linearSearch.cpp.s
+
+.PHONY : linearSearch.s
+
+# target to generate assembly for a file
+linearSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\linearSearch.dir\build.make CMakeFiles/linearSearch.dir/linearSearch.cpp.s
+.PHONY : linearSearch.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -209,13 +408,67 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SortingAlgos.dir\build.make CMakeFiles/SortingAlgos.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+merge.obj: merge.cpp.obj
+
+.PHONY : merge.obj
+
+# target to build an object file
+merge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\merge.dir\build.make CMakeFiles/merge.dir/merge.cpp.obj
+.PHONY : merge.cpp.obj
+
+merge.i: merge.cpp.i
+
+.PHONY : merge.i
+
+# target to preprocess a source file
+merge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\merge.dir\build.make CMakeFiles/merge.dir/merge.cpp.i
+.PHONY : merge.cpp.i
+
+merge.s: merge.cpp.s
+
+.PHONY : merge.s
+
+# target to generate assembly for a file
+merge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\merge.dir\build.make CMakeFiles/merge.dir/merge.cpp.s
+.PHONY : merge.cpp.s
+
+quick.obj: quick.cpp.obj
+
+.PHONY : quick.obj
+
+# target to build an object file
+quick.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quick.dir\build.make CMakeFiles/quick.dir/quick.cpp.obj
+.PHONY : quick.cpp.obj
+
+quick.i: quick.cpp.i
+
+.PHONY : quick.i
+
+# target to preprocess a source file
+quick.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quick.dir\build.make CMakeFiles/quick.dir/quick.cpp.i
+.PHONY : quick.cpp.i
+
+quick.s: quick.cpp.s
+
+.PHONY : quick.s
+
+# target to generate assembly for a file
+quick.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quick.dir\build.make CMakeFiles/quick.dir/quick.cpp.s
+.PHONY : quick.cpp.s
+
 selection.obj: selection.cpp.obj
 
 .PHONY : selection.obj
 
 # target to build an object file
 selection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\buble.dir\build.make CMakeFiles/buble.dir/selection.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\selection.dir\build.make CMakeFiles/selection.dir/selection.cpp.obj
 .PHONY : selection.cpp.obj
 
 selection.i: selection.cpp.i
@@ -224,7 +477,7 @@ selection.i: selection.cpp.i
 
 # target to preprocess a source file
 selection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\buble.dir\build.make CMakeFiles/buble.dir/selection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\selection.dir\build.make CMakeFiles/selection.dir/selection.cpp.i
 .PHONY : selection.cpp.i
 
 selection.s: selection.cpp.s
@@ -233,7 +486,7 @@ selection.s: selection.cpp.s
 
 # target to generate assembly for a file
 selection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\buble.dir\build.make CMakeFiles/buble.dir/selection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\selection.dir\build.make CMakeFiles/selection.dir/selection.cpp.s
 .PHONY : selection.cpp.s
 
 # Help Target
@@ -245,13 +498,38 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SortingAlgos
+	@echo ... binarySearch
 	@echo ... buble
+	@echo ... insertion
+	@echo ... interpolationSearch
+	@echo ... linearSearch
+	@echo ... merge
+	@echo ... quick
+	@echo ... selection
+	@echo ... binarySearch.obj
+	@echo ... binarySearch.i
+	@echo ... binarySearch.s
 	@echo ... bubble.obj
 	@echo ... bubble.i
 	@echo ... bubble.s
+	@echo ... insertion.obj
+	@echo ... insertion.i
+	@echo ... insertion.s
+	@echo ... interpolationSearch.obj
+	@echo ... interpolationSearch.i
+	@echo ... interpolationSearch.s
+	@echo ... linearSearch.obj
+	@echo ... linearSearch.i
+	@echo ... linearSearch.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... merge.obj
+	@echo ... merge.i
+	@echo ... merge.s
+	@echo ... quick.obj
+	@echo ... quick.i
+	@echo ... quick.s
 	@echo ... selection.obj
 	@echo ... selection.i
 	@echo ... selection.s

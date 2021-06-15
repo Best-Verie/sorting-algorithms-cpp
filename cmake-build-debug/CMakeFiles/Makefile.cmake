@@ -55,4 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/buble.dir/DependInfo.cmake"
   "CMakeFiles/SortingAlgos.dir/DependInfo.cmake"
+  "CMakeFiles/selection.dir/DependInfo.cmake"
+  "CMakeFiles/insertion.dir/DependInfo.cmake"
+  "CMakeFiles/merge.dir/DependInfo.cmake"
   )

@@ -13,15 +13,18 @@ void swap(int *x, int *y){
 }
 void selectionSort(int array[], int n){
 
-    int minIndex;
-    for(int i=0; i<n-1; i++){
-        minIndex = i;
-        for(int j = i+1; j<n; j++){
-            if(array[j]<array[minIndex]){
-                minIndex=j;
-            }
+    int i, key, j;
+    for (i = 1; i < n; i++)
+    {
+        key = array[i];
+        j = i - 1;
+
+        while (j >= 0 && array[j] > key)
+        {
+            array[j + 1] = array[j];
+            j = j - 1;
         }
-        swap(&array[minIndex], &array[i]);
+        array[j + 1] = key;
     }
 
     for(int k=0; k<n; k++){
@@ -32,6 +35,8 @@ void selectionSort(int array[], int n){
 int main(){
     int array[]={45,23,7,21,89};
     int n = sizeof(array)/sizeof(array[0]);
+
+    cout<<n<<endl;
     selectionSort(array,n);
 
 }

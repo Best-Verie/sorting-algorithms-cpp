@@ -1,4 +1,7 @@
 C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/buble.dir
 C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/SortingAlgos.dir
-C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/selection.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/insertion.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/merge.dir
+C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/edit_cache.dir

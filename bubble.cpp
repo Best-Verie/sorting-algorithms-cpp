@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 void swap(int *x, int *y){
     int temp = *x;
     *x = *y;
@@ -21,7 +20,6 @@ void bubbleSort(int array[], int n){
     }
 
 }
-/
 int main(){
   int array[]={45,23,7,21,89};
     int n = sizeof(array)/sizeof(array[0]);

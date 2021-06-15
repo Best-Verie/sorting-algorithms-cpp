@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/buble.dir/bubble.cpp.obj"
-  "CMakeFiles/buble.dir/selection.cpp.obj"
   "buble.exe"
   "buble.exe.manifest"
   "buble.pdb"

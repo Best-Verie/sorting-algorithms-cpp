@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/bubble.cpp" "C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/buble.dir/bubble.cpp.obj"
+  "C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/selection.cpp" "C:/Users/DELL/OneDrive/Documents/Year2/DSA/SortingAlgos/cmake-build-debug/CMakeFiles/selection.dir/selection.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
